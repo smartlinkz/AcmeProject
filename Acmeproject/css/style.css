@@ -1,0 +1,237 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background:url('../images/Hellopics.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin:auto ;
+    overflow:hidden ;
+    display: ;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.button_1{
+    height: 38px;
+    background: rgb(218, 183, 6);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    border-radius: 5px;
+}
+.dark{
+    padding: 15px;
+    background: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* HEADER */
+header{
+    background:transparent ;
+    color: rgb(165, 47, 26);
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: tomato 3px solid;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* position: fixed; */
+    width: 100%;
+    text-shadow: 2px 2px 5px #180403;
+
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+    text-shadow: 2px 2px 2x #180403;
+    
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 30px;
+}
+header .highlight, header .current a{
+    color: #56c9d8;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #180403;
+    
+}
+header a:hover{
+    color: #ff0000;
+    font-weight: bold;
+}
+/* Showcase*/
+#showcase{
+    min-height: 500px;
+    /* background:url('../images/Hellopics.jpeg') no-repeat center fixed; */
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    align-items: center;
+    color: rgb(191, 59, 35);
+    text-shadow: 2px 2px 5px #180403;
+}
+#showcase p{
+    font-size: 20px;
+    color: #180403;
+    margin-top: 20px;
+}
+/*Newsletter*/
+#newsletter{
+    padding: 10px;
+    background: #a8c0ce7b;
+    margin-top: 100px;
+    border-left: tomato solid 20px;
+    border-right: tomato solid 20px;
+    
+
+}
+
+#newsletter h2{
+    float: left;
+
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+
+}
+#newsletter input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+}
+/*Boxes*/
+#boxes{
+    margin-top: 20px;
+    background: rgba(210, 202, 202, 0.215);
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* gap: 5px; */
+}
+
+.boxes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#boxes .box{
+    /* float: left; */
+    width: 300px;
+    padding: 25PX;
+    text-align: center;
+    background: rgba(177, 207, 240, 0.544);
+    box-shadow: 2px 2px 10px rgba(53, 6, 6, 0.729);
+    margin: 10px;
+}
+
+/* Position the tooltip */
+.box .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(16, 1, 1, 0.879);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.box:hover .tooltiptext {
+    visibility: visible;
+  }
+.box img{
+    width: 30%;
+    height: 30%;
+    
+}
+
+#imgcss{
+    width: 20%;
+    height: 20%;
+}
+
+/*sidebar*/
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/*maincol*/
+article#main-col{
+    float: left;
+    width: 55%;
+}
+
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 2px;
+    margin-bottom: 5px;
+    background: #cccccc;
+
+
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fed700;
+    background: #1978b380;
+    text-align: center;
+    text-shadow: 2px 2px 5px #180403;
+}
+#footer-about {
+    margin-top: 50px;
+}
+
+#main-col {
+    margin-top: ;
+}
